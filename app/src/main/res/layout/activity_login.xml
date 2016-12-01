@@ -47,8 +47,9 @@
             android:id="@+id/btnLogin"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dip"
+            android:layout_marginTop="20dp"
             android:background="@color/btn_login_bg"
+            android:textSize="18sp"
             android:text="@string/btn_login"
             android:textColor="@color/btn_login" />
 
@@ -58,7 +59,7 @@
             android:id="@+id/btnLinkToRegisterScreen"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="40dip"
+            android:layout_marginTop="40dp"
             android:background="@null"
             android:text="@string/btn_link_to_register"
             android:textAllCaps="false"
