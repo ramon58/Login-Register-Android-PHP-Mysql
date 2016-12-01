@@ -23,7 +23,7 @@
             android:background="@color/input_register_bg"
             android:hint="@string/hint_name"
             android:padding="10dp"
-            android:singleLine="true"
+            android:maxLines="1"
             android:inputType="textCapWords"
             android:textColor="@color/input_register"
             android:textColorHint="@color/input_register_hint" />
@@ -37,7 +37,7 @@
             android:hint="@string/hint_email"
             android:inputType="textEmailAddress"
             android:padding="10dp"
-            android:singleLine="true"
+            android:maxLines="1"
             android:textColor="@color/input_register"
             android:textColorHint="@color/input_register_hint" />
 
@@ -50,7 +50,7 @@
             android:hint="@string/hint_password"
             android:inputType="textPassword"
             android:padding="10dp"
-            android:singleLine="true"
+            android:maxLines="1"
             android:textColor="@color/input_register"
             android:textColorHint="@color/input_register_hint" />
 
